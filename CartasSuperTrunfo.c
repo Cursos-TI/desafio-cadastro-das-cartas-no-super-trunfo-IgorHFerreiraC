@@ -34,25 +34,38 @@ int main() {
     float PIB;
     int pontos_turisticos;
 
-printf("Digite o nome do Estado: \n");
-scanf("%s", Estado);
+    printf("Carta 1 \n");
 
-printf("Digite o Codigo da carta: \n");
-scanf("%s", Codigo_da_Carta);
+    printf("Digite o nome do Estado: \n");
+    scanf("%s", Estado);
 
-printf("Digite o nome da cidade: \n");
-scanf("%s", Nome_da_cidade);
+    printf("Digite o Codigo da carta: \n");
+    scanf("%s", Codigo_da_Carta);
 
-printf("Digite a população: \n");
-scanf("%d", &populacao);
+    printf("Digite o nome da cidade: \n");
+    scanf("%s", Nome_da_cidade);
 
-printf("Digite a area: \n");
-scanf("%f", &area);
+    printf("Digite a população: \n");
+    scanf("%d", &populacao);
 
-printf("Digite o PIB: \n");
-scanf("%f", &PIB);
+    printf("Digite a area: \n");
+    scanf("%f", &area);
 
-printf("Digite os pontos turisticos: \n");
-scanf("%d", &pontos_turisticos);
+    printf("Digite o PIB: \n");
+    scanf("%f", &PIB);
+
+    printf("Digite os pontos turisticos: \n");
+    scanf("%d", &pontos_turisticos);
+
+    printf("Nome do Estado: %s \n", Estado);
+    printf("Código da Carta: %s \n", Codigo_da_Carta);
+    printf("Nome da Cidade: %s \n", Nome_da_cidade);
+    printf("População: %d \n", populacao);
+    printf("Área: %f \n", area);
+    printf("PIB: %f \n", PIB);
+    printf("Pontos Turisticos: %d \n", pontos_turisticos);
+
+    return 0;
+
 
 }
