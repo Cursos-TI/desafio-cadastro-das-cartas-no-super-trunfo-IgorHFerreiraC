@@ -57,13 +57,7 @@ int main() {
     printf("Digite os pontos turisticos: \n");
     scanf("%d", &pontos_turisticos);
 
-    printf("Seu Estado da carta 1 é: %s \n", Estado); //para imprimir os comendos
-    printf("Seu Código da carta 1 é: %s \n", Codigo_da_Carta); //para imprimir os comendos
-    printf("O nome da sua Cidade 1 é: %s \n", Nome_da_cidade); //para imprimir os comendos
-    printf("a população da cidade da carta 1 é: %d \n", populacao); //para imprimir os comendos
-    printf("A Área da cidade da carta 1 é: %f \n", area); //para imprimir os comendos
-    printf("o PIB da cidade da carta 1 é: %f \n", PIB); //para imprimir os comendos
-    printf("Os Pontos Turisticos da cidade da carta 1 é : %d \n", pontos_turisticos); //para imprimir os comendos
+    
 
     char Estado2[50];
     char codigo_da_carta[50];
@@ -95,6 +89,18 @@ int main() {
     
     printf("Pontos Turisticoa: \n");
     scanf("%d", &pontos_turisticos2);
+
+    printf("Carta 1: \n");
+
+    printf("Seu Estado da carta 1 é: %s \n", Estado); //para imprimir os comendos
+    printf("Seu Código da carta 1 é: %s \n", Codigo_da_Carta); //para imprimir os comendos
+    printf("O nome da sua Cidade 1 é: %s \n", Nome_da_cidade); //para imprimir os comendos
+    printf("a população da cidade da carta 1 é: %d \n", populacao); //para imprimir os comendos
+    printf("A Área da cidade da carta 1 é: %f \n", area); //para imprimir os comendos
+    printf("o PIB da cidade da carta 1 é: %f \n", PIB); //para imprimir os comendos
+    printf("Os Pontos Turisticos da cidade da carta 1 é : %d \n", pontos_turisticos); //para imprimir os comendos
+    
+    printf("carta 2: \n");
     
     printf("O Nome do Estado da carta 2 é: %s \n", Estado2); //para imprimir os comendos
     printf("O Codigo da Carta 2 é: %s \n", codigo_da_carta); //para imprimir os comendos
