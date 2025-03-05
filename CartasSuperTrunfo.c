@@ -69,7 +69,7 @@ int main() {
     
     printf("carta 2 \n"); //para separar a carta 2 da 1 - por esse motivo não foram usadas variaveis neste printf
     
-    printf("Digite o nome da cidade: \n");
+    printf("Digite o nome do Estado: \n");
     scanf("%s", Estado2);
     
     printf("Digite o código da carta: \n");
@@ -101,7 +101,7 @@ int main() {
     printf("Os Pontos Turisticos da cidade da carta 1 é : %d \n", pontos_turisticos); //para imprimir os comendos
     
     printf("carta 2: \n");
-    
+
     printf("O Nome do Estado da carta 2 é: %s \n", Estado2); //para imprimir os comendos
     printf("O Codigo da Carta 2 é: %s \n", codigo_da_carta); //para imprimir os comendos
     printf("O Nome da Cidade da carta 2 é: %s \n", nome_da_cidade); //para imprimir os comendos
