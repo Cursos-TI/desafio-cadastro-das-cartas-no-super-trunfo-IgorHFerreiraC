@@ -94,7 +94,7 @@ int main() {
 
     printf("Seu Estado da carta 1 é: %s \n", Estado); //para imprimir os comendos
     printf("Seu Código da carta 1 é: %s \n", Codigo_da_Carta); //para imprimir os comendos
-    printf("O nome da sua Cidade 1 é: %s \n", Nome_da_cidade); //para imprimir os comendos
+    printf("O nome da Cidade 1 é: %s \n", Nome_da_cidade); //para imprimir os comendos
     printf("a população da cidade da carta 1 é: %d \n", populacao); //para imprimir os comendos
     printf("A Área da cidade da carta 1 é: %f \n", area); //para imprimir os comendos
     printf("o PIB da cidade da carta 1 é: %f \n", PIB); //para imprimir os comendos
