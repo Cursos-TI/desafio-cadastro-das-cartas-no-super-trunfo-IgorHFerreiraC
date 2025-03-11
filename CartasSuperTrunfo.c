@@ -66,6 +66,9 @@ int main() {
     float area2;
     float PIB2;
     int pontos_turisticos2;
+
+    float densidade_populacional_carta_1, densidade_populacional_carta_2; // pegar população + area da cidade e dividir e armazenar na densidade porpulação
+    float PIB_Per_capita_carta_1, PIB_Per_capita_carta_2; // pib + população e armazenar na pib per capita
     
     printf("carta 2 \n"); //para separar a carta 2 da 1 - por esse motivo não foram usadas variaveis neste printf
     
@@ -111,6 +114,18 @@ int main() {
     printf("Os Pontos turisticos da cidade da carta 2 é: %d \n", pontos_turisticos2); //para imprimir os comendos
 
 
+    densidade_populacional_carta_1 = (populacao / area);
+    printf ("A Densidade populacional da carta 1 é: %f \n", densidade_populacional_carta_1);
+    
+    densidade_populacional_carta_2 = (populacao2 / area2);
+    printf ("A Densidade populacional da Carta 2 é: %f \n", densidade_populacional_carta_2);
+    
+    PIB_Per_capita_carta_1 = (PIB / populacao);
+    printf ("O PIB Per Capita da carta 1 é: %f \n", PIB_Per_capita_carta_1);
+    
+    PIB_Per_capita_carta_2 = (PIB2 / populacao2);
+    printf ("O PIB Per Capita da carta 2 é: %f \n", PIB_Per_capita_carta_2);
+    
     return 0;
 
 
