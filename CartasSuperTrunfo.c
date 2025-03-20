@@ -138,15 +138,63 @@ int main() {
     superpoder2 = (populacao2 + area2 + PIB2 + pontos_turisticos2 + PIB_Per_capita_carta_2 + inverso_densidade2);
 
 
-printf("a: %d \n", populacao2, area2, PIB2, pontos_turisticos2, PIB_Per_capita_carta_2, inverso_densidade2);
-printf("Resultado das comparações:\n");
-printf("A vencedora em população é a carta: %d \n", (populacao > populacao2) + (populacao <= populacao2));
-printf("A vencedora em area é a carta: %d \n", (area > area2) + (area <= area2));
-printf("A vencedora em PIB é a carta: %d \n", (PIB > PIB2) * 1 + (PIB <= PIB2) * 2 );
-printf("A vencedora em pontos turisticos é a carta: %d \n", (pontos_turisticos > pontos_turisticos2) + (pontos_turisticos <= pontos_turisticos2));
-printf("A vencedora em densidade populacional é a carta:%d \n", (densidade_populacional_carta_1 < densidade_populacional_carta_2) + (densidade_populacional_carta_1 >= densidade_populacional_carta_2));
-printf("A vencedora em PIB per capita é a carta:%d \n", (PIB_Per_capita_carta_1 > PIB_Per_capita_carta_2) + (PIB_Per_capita_carta_1 <= PIB_Per_capita_carta_2));
-printf("A vencedora em Super Poder é a carta: %d \n", (superpoder1 > superpoder2) + (superpoder1 <= superpoder2));
+    printf("Resultado das comparações:\n");
+
+
+    printf("População \n");
+    if (populacao > populacao2)
+    {
+        printf("A carta 1 (Maringá) ganhou!!! \n");
+    
+    }else
+    {
+        printf("A carta 2 (Sarandi) ganhou!!! \n");
+    
+    
+    }
+    printf("Área \n");
+    if (area > area2)
+    {
+        printf("A carta 1 (Maringá) ganhou!!! \n");
+    
+    }else
+    {
+        printf("A carta 2 (Sarandi) ganhou!!! \n");
+    
+    
+    }
+    printf("PIB \n");
+    if (PIB > PIB2)
+    {
+        printf("A carta 1 (Maringá) ganhou!!! \n");
+    
+    }else
+    {
+        printf("A carta 2 (Sarandi) ganhou!!! \n");
+    
+    
+    }
+    printf("Super poder \n");
+    if (superpoder1 > superpoder2)
+    {
+        printf("A carta 1 (Maringá) ganhou!!! \n");
+    
+    }else
+    {
+        printf("A carta 2 (Sarandi) ganhou!!! \n");
+    
+    
+    }
+    printf("densidade populacional \n");
+    if (densidade_populacional_carta_1 < densidade_populacional_carta_2)
+    {
+        printf("A carta 1 (Maringá) ganhou!!! \n");
+    
+    }else
+    {
+        printf("A carta 2 (Sarandi) ganhou!!! \n");
+        
+    }
 
 
     return 0;
